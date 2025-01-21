@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("../assets/bg.png");
+    background-color: #F7F7F7;
+}
+/* -----shared item-------- */
+.flex{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.all-btn{
+    color: aliceblue;
+    background-color: #000000;
+    padding: 10px 50px 10px 50px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* ----------Header section------- */
+.nav-header{
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.nav-logo{
+    align-items: center;
+    gap: 10px;
+}
+.nav-links{
+    list-style: none;
+    gap: 30px;
+}
+.nav-link-1{
+    color: #fdab18;
+}
+.nav-link-2{
+    color: #188efd;
+}
+.nav-link-3{
+    color: #03eaf2;
+}
+.nav-link-4{
+    color: #4f0dc1;
+}
+.nav-btn{
+    color: aliceblue;
+    background-color: #fdab18;
+    padding: 10px 45px 10px 45px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+
+.nav-header .menu-icon{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.nav-header .menu-icon div {
+        width: 25px;
+        height: 3px;
+        background-color: black;
+}
+/* -------hero container section--------------- */
+.hero-container{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;    
+}
+.hero-containt h1{
+    font-size: 3rem;   
+}
+.hero-containt p{
+    font-size: 1rem; 
+    margin: 10px 0 10px 0;  
+}
+
+.age{
+    color: #188efd;
+}
+.bold{
+    color: #fdab18
+}
+
+/* ---------responsibe section------- */
+@media screen and (max-width:576px){
+    /* nav section responsible */
+    .nav-links, .nav-btn, .logo-header{
+        display: none;
+    }
+    .nav-header{
+        justify-content: space-between;
+        padding:10px;
+        border-bottom:1px solid #fdab18;
+    }
+    .nav-header .menu-icon{
+        display: flex;
+    }
+ /* -----------hero container-------- */
+
+ .hero-container{
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 30px;
+ }
+ .hero-container{
+    text-align: center;
+ }
+ .hero-container h1{
+    font-size: 1.9rem;
+ }
+ .hero-container img{
+    width: 100%;
+ }
+ 
+    
+}
