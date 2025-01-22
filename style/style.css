@@ -213,6 +213,7 @@ marquee {
 }
 .card-contain1 img {
 margin-right: 150px;
+border-radius: 40px;
 
 }
 .card-contain1, h2{
