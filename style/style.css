@@ -5,7 +5,7 @@
     
 }
 body{
-    background-image: url("../assets/bg.png");
+    /* background-image: url("../assets/bg.png"); */
     background-color: #F7F7F7;
 }
 /* -----shared item-------- */
@@ -73,6 +73,13 @@ body{
         height: 3px;
         background-color: black;
 }
+marquee {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    border: 2px solid rgb(0, 197, 251);
+    background-color: #01acfd;
+    padding: 10px;
+    font-weight: 500;
+}
 /* -------hero container section--------------- */
 .hero-container{
     justify-content: center;
@@ -93,6 +100,224 @@ body{
 }
 .bold{
     color: #fdab18
+}
+/* ----------card section---------- */
+.cariculam-h1{
+    text-align: center;
+    margin-bottom: -30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.card-section{
+    width: 100%;
+    justify-content: center;
+    padding: 120px;
+    align-items: center;
+    gap: 70px;
+    
+}
+.card-1, .card-2, .card-3{
+    text-align: center;
+    width: 300px;
+    height: 400px;    
+}
+.card-1{
+    padding: 20px;
+    background-image: linear-gradient(180deg, #E7F8FF 5%, rgb(255, 255, 255) 40%);
+    border-radius: 10px;
+}
+.card-1 img, h1, p{
+    margin-bottom: 30px;
+}
+.card-1 button{
+    background-color: #ffffff;
+    border: 0;
+    color: #107dbc;
+}
+.card-2{
+    padding: 20px;
+}
+.card-2 img, h1, p{
+    margin-bottom: 30px;
+}
+.card-2{
+    padding: 20px;
+    background-image: linear-gradient(180deg, #fef5e2 5%, rgb(255, 255, 255) 40%);
+    border-radius: 10px;
+}
+.card-2 img, h1, p{
+    margin-bottom: 30px;
+}
+.card-2 button{
+    background-color: #ffffff;
+    border: 0;
+    color: #fec806;
+}
+
+.card-3{
+    padding: 20px;
+    background-image: linear-gradient(180deg, #F0E5FE 5%, rgb(255, 255, 255) 40%);
+    border-radius: 10px;
+}
+.card-3 img, h1, p{
+    margin-bottom: 30px;
+}
+.card-3 button{
+    background-color: #ffffff00;
+    border: 0;
+    color: #7a15ff;
+}
+
+.card-3{
+    padding: 20px;
+}
+.card-3 img, h1, p{
+    margin-bottom: 20px;
+}
+.arrow-btn{
+    text-align: center;
+    
+}
+.btn-1, .btn-2{
+    padding: 20px;
+    background-color: #fdab18;
+    border: 0;
+    color: #E7F8FF;
+    font-size: 30px;
+    border-radius: 50%;    
+}
+/* -----------story section---------- */
+.section-of-story{
+    background-image: url("../assets/bg.png"), linear-gradient(360deg, #fef5e2 5%, rgb(255, 255, 255) 40%);
+    background-position: cover;
+}
+    
+
+.our-story{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.card-section-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    
+}
+.card-contain1{
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0);  
+
+}
+.card-contain1 img {
+margin-right: 150px;
+
+}
+.card-contain1, h2{
+    margin-left: 0px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-size: 1.6rem;
+}
+.s-p{
+    margin-top: 30px;
+    font-size: 14px; 
+}
+
+
+.card-btn-1{
+    position: relative;
+    margin-left: -480px;
+    padding: 10px 45px 10px 45px;
+    background-color: aquamarine;
+    border: 0;
+    border-radius: 20px;
+}
+/* .................................. */
+.card-contain2{
+background-color: rgba(255, 255, 255, 0);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.card2{
+    width: 100%;
+         
+}
+.card2 img{
+    width: 90%;
+    border-radius: 20px 20px 0 0;
+}
+.card-btn-2{
+    position: relative;
+    margin-left: -180px;
+    padding: 10px 25px 10px 25px;
+    background-color: aquamarine;
+    border: 0;
+    border-radius: 20px;
+    
+}
+.card-btn-3{
+    position: relative;
+    margin-left: -190px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(255, 247, 0);
+    border: 0;
+    border-radius: 20px;
+}
+.card-btn-4{
+    position: relative;
+    margin-left: -190px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(0, 64, 255);
+    border: 0;
+    border-radius: 20px;
+}
+.card-btn-5{
+    position: relative;
+    margin-left: -190px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(2, 241, 249);
+    border: 0;
+    border-radius: 20px;
+}
+.story-btn{
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* ....................footer-section---------------- */
+.footer-container{
+    width: 100%;
+    background-color: aqua;
+    gap: 30px;
+    justify-content: center;
+    
+}
+.footer-logo{
+    align-items: center;
+}
+.footer-logo h1{
+    color: aliceblue;
+}
+.footer-container p{
+    color: aliceblue;
+
+}
+.footer-container p, h1, li, img{
+    margin-top: 20px;
+    } 
+.footer-list{
+    list-style: none;
+    color: aliceblue;
+}
+.footer-list li{
+    margin-bottom: 20px;
+}
+.social{
+    margin-left: 120px;
+    color: aliceblue;
 }
 
 /* ---------responsibe section------- */
@@ -125,6 +350,46 @@ body{
  .hero-container img{
     width: 100%;
  }
- 
-    
+/* ......... card section..... */
+.cariculam-h1{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 20px;}
+.card-section{
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+}
+.arrow-btn{
+    display: none;
+}
+  
+.card-contain1{
+    display: none;
+}
+.card-section-1{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+.card-contain2{
+    grid-template-columns: repeat(1, 1fr);
+}
+.card2{
+    width: 100%;
+    padding: 40px;   
+}
+/* ....................footer------------ */
+.footer-container{
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+}
+.social{
+margin-left:0px;
+color: aliceblue;
+}
+.footer-container p, h1, li, img{
+margin-left: 20px;
+}  
 }
